@@ -9,6 +9,10 @@
   gap: 10px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .movie {
   border: 1px solid;
   width: 250px;
@@ -26,13 +30,13 @@
   max-width: 20rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .movieForm input {
   padding: 0.5rem 1rem 0.5rem 0;
-  text-indent: 0.5rem;
+  text-indent: 1rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -41,7 +45,6 @@
   background-color: #000;
   padding: 0.5rem 1rem;
   width: 100%;
-  padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
   margin-top: 1rem;
@@ -52,4 +55,41 @@
   background-color: #ddd;
   cursor: default;
   border: 1px solid #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+a.title {
+  border: 1px solid #000;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+a.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  margin: 2rem auto;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.search input {
+  padding: 0.5rem 1rem 0.5rem 0;
+  text-indent: 0.5rem;
+  margin-bottom: 1rem;
 }

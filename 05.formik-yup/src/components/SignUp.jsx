@@ -24,7 +24,7 @@ const SignUp = () => {
                         <Form>
                             <InputField type='text' name='firstName' label='First Name' />
                             {/* {errors.firstName && touched.firstName && (<div>{errors.firstName}</div>)} */}
-                            <InputField type='text' name='lastName' label='Last Name' />
+                            <InputField type='text' name='lastName' label='Last Name'/>
                             <InputField type='email' name='email' label='Email' />
                             <InputField type='password' name='password' label='Password' />
                             <InputField type='password' name='confirmPassword' label='Confirm Password' />

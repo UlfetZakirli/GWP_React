@@ -1,0 +1,1 @@
+export const PAGINATE_PAGE = 2

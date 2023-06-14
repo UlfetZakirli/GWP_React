@@ -52,10 +52,10 @@ nav a {
   padding: 10px;
   text-decoration: none;
   border: 1px solid #000;
-  color: red;
+  color: #fff;
 }
 
 a.active {
-  background-color: #000;
+  background-color: green;
   color: #fff;
 }

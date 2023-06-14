@@ -1,0 +1,15 @@
+.users {
+  display: grid;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.user {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+a {
+  margin-top: 33px;
+  margin-left: 10px;
+}
