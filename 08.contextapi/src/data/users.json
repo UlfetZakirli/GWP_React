@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "name": "Fatime",
+      "usertype": "Manager"
+    },
+    {
+      "id": "5",
+      "name": "Sevil",
+      "usertype": "Manager"
+    }
+  ]
+}
